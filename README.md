@@ -12,9 +12,9 @@ or run the SendtoEmail.py and get an email
 To use clone this repo and create your own open ai account and enviroment secrets so this can run in their own repro, please follow these steps:
 
 1. Clone the repro and update the feeds.txt with your RSS Feed URLS
-2. Modify the scripts with your email as well as the Feed URL to any MS RSS feed you would like. 
+2. Modify the scripts with your email server  or the webhook url  as well as the Feed URL to any MS RSS feed you would like. 
 3. if you want to use gmail as your smtp follow the instructions here https://support.google.com/mail/answer/7126229 otherwise specify your own smtp server 
 4. Go to https://openai.com/ and sign up for an account if you don't have one already. You will need an API key to access the OpenAI services.
 5. In your OpenAI account dashboard, go to API Keys and click Create an API key. Copy the secret key that starts with sk_ and keep it safe.
-6. In your local repo, Set secrets in Settings/Secrets/Actions -> 'New repository secret'. Use the same secret name inside sendtoteams.yml and sendtoteams.py
+6. In your local repo, Set secrets in Settings/Secrets/Actions -> 'New repository secret'. Use the same secret name inside the atction .yml and *.py
 7. You have successfully cloned the repo and created your own environment secrets. You can now run the code in your own repro using Python 

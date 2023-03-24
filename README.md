@@ -1,7 +1,7 @@
 # Ai Blog Summarizers
 ![ailonag_an_info_graphic_of_an_AI_robot_taking_in_an_RSS_feed_an_152da832 7865 4f2f ae46 59cb840773eb](https://user-images.githubusercontent.com/81778135/227051825-e9a664c1-d4fb-4234-8430-84a78b270754.jpg)
 
-The scipt will check a list of feeds for new posts and send them to ChatGPT to gendrate a summary of the article along with 5 bullet points then sends them to either Teams channel or Email.  
+The scipt will check a list of feeds in the feeds.txt file  for new posts and send them to ChatGPT to generate a summary of the article along with 5 bullet points then sends them to either Teams channel or Email.  
 
 ![image](https://user-images.githubusercontent.com/81778135/227434020-0e218e6e-79c9-498e-a759-b02b39c1d40f.png)
 

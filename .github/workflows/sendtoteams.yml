@@ -29,7 +29,7 @@ jobs:
         env:
           G_SECRET: ${{ secrets.GMAIL}}
           OPENAI_SECRET: ${{ secrets.OPENAI}}
-        run: python Sendtoteams.py
+        run: python SendtoTeams.py
 
       - name: commit files
         run: |

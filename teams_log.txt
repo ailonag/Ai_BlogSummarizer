@@ -1,3 +1,4 @@
 https://azure.microsoft.com/blog/modernize-your-apps-and-accelerate-business-growth-with-ai/
 https://blogs.bing.com/search-quality-insights/march-2023/Building-the-New-Bing-Image-Creator
 https://blogs.bing.com/search/march_2023/Bing-Preview-Release-Notes-AI-powered-Knowledge-Cards-and-Stories
+https://techcommunity.microsoft.com/t5/microsoft-intune-blog/what-s-new-in-microsoft-intune-2303-march-edition/ba-p/3778012

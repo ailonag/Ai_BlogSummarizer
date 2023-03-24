@@ -27,8 +27,8 @@ jobs:
 
       - name: execute py script # run sendtoteams.py
         env:
-          G_SECRET: ${{ secrets.GMAIL}}
-          OPENAI_SECRET: ${{ secrets.OPENAI}}
+          Gmail_SECRET: ${{ secrets.GMAIL}}
+          Openai_SECRET: ${{ secrets.OPENAI}}
         run: python SendtoTeams.py
 
       - name: commit files

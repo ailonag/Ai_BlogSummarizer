@@ -1,0 +1,4 @@
+https://azurecomcdn.azureedge.net/en-us/blog/feed
+https://blogs.bing.com/feed
+https://cloudblogs.microsoft.com/powerplatform/feed/\https://techcommunity.microsoft.com/t5/configuration-manager-blog/bg-p/ConfigurationManagerBlog
+https://techcommunity.microsoft.com/plugins/custom/microsoft/o365/custom-blog-rss?tid=-2665027495767423092&board=MicrosoftEndpointManagerBlog&size=25

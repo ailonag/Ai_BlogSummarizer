@@ -8,7 +8,7 @@ import os
 openai.api_key = os.environ["Openai_SECRET"]
 
 # Microsoft Teams webhook URL
-webhook_url = os.environ["Teams_SECRET]
+webhook_url = os.environ["Teams_SECRET"]
                          
 # List of RSS feed URLs
 feeds = []

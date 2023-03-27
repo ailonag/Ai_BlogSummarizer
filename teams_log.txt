@@ -2,3 +2,4 @@ https://azure.microsoft.com/blog/modernize-your-apps-and-accelerate-business-gro
 https://blogs.bing.com/search-quality-insights/march-2023/Building-the-New-Bing-Image-Creator
 https://blogs.bing.com/search/march_2023/Bing-Preview-Release-Notes-AI-powered-Knowledge-Cards-and-Stories
 https://techcommunity.microsoft.com/t5/microsoft-intune-blog/what-s-new-in-microsoft-intune-2303-march-edition/ba-p/3778012
+https://blogs.bing.com/maps/2023-03/The-Importance-of-Open-Source-Street-Map-Data

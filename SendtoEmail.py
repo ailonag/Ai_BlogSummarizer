@@ -8,18 +8,23 @@ from email.mime.multipart import MIMEMultipart
 
 # OpenAI credentials
 openai.api_key = os.environ["Openai_SECRET"]
-# Email credentials
-email_address = "erichgellert@gmail.com"
-email_password = os.environ["Gmail_SECRET"]
-email_toaddress = "erichgellert@gmail.com"
 
+
+# Email credentials
+email_address = "email@gmail.com"
+email_password = os.environ["Gmail_SECRET"]
+email_toaddress = "emailt@gmail.com"
+with open('email_list.txt', 'r') as f:
+    email_to = f.readlines()
+# Strip any newline characters from the email addresses
+email_to = [email.strip() for email in email_to]
 # Email configuration
 SMTP_SERVER = 'smtp.gmail.com'
 SMTP_PORT = 587
 SMTP_USERNAME = email_address
 SMTP_PASSWORD = email_password
 EMAIL_FROM = email_address
-EMAIL_TO = 'ailona@ailona.com; erichgellert@gmail.com; erich.gellert@microsoft.com; russ.rimmerman@microsoft.com'
+EMAIL_TO = email_toaddress
 
 # List of RSS feed URLs
 feeds = []
@@ -63,7 +68,8 @@ for feed_url in feeds:
                 top_p=1.0,
                 frequency_penalty=0.0,
                 presence_penalty=0.0
-                ).choices[0].text # type: ignore
+                ).choices[1].text # type: ignore
+                
 
                 # Add the summary to the list of new article summaries
                 new_summaries.append(f"From the {feed.channel.title}\n{post.title}\n{summary}\n{post.link}\n")

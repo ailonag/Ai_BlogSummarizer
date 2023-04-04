@@ -2,7 +2,7 @@ name: run Feed summarizer
 
 on:
   schedule:
-    - cron: '5 * * * *' # At 00:00 on Monday
+    - cron: '5 * * * *' # At 5 minutes after every hour
 
   push:
     branches: [ "main" ]
@@ -27,9 +27,10 @@ jobs:
 
       - name: execute py script # run sendtoteams.py
         env:
-          G_SECRET: ${{ secrets.GMAIL}}
-          OPENAI_SECRET: ${{ secrets.OPENAI}}
-        run: python sendtoteams.py
+          Gmail_SECRET: ${{ secrets.GMAIL}}
+          Openai_SECRET: ${{ secrets.OPENAI}}
+          Teams_SECRET: ${{ secrets.Teams}}
+        run: python SendtoTeams.py
 
       - name: commit files
         run: |
